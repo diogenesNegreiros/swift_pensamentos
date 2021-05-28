@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LcC-Pt-53y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LcC-Pt-53y">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-KI-fJZ">
@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="width" secondItem="LO9-KW-R3n" secondAttribute="height" multiplier="750:666" id="nP4-8r-CPm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="OKH-51-zyI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OKH-51-zyI">
                                 <rect key="frame" x="30" y="294" width="260" height="48"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Pensamento">
@@ -67,7 +67,7 @@
                             <constraint firstItem="Kbb-4U-H5H" firstAttribute="top" secondItem="OKH-51-zyI" secondAttribute="bottom" constant="20" id="6Vc-n2-ktV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OKH-51-zyI" secondAttribute="trailing" constant="30" id="Beu-hc-n3f"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Czi-IZ-eo3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kbb-4U-H5H" secondAttribute="bottom" constant="30" id="Dhg-Yh-4sC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kbb-4U-H5H" secondAttribute="bottom" constant="20" id="Dhg-Yh-4sC"/>
                             <constraint firstItem="Ral-KI-fJZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DsE-xZ-fCz"/>
                             <constraint firstItem="OKH-51-zyI" firstAttribute="top" secondItem="LO9-KW-R3n" secondAttribute="bottom" constant="10" id="HuT-Rh-mQb"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vhn-jM-vPn"/>
@@ -84,11 +84,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quote.bubble" catalog="system" id="qBb-UX-TjO"/>
                     <connections>
-                        <outlet property="ctTopConstraint" destination="HuT-Rh-mQb" id="wQ3-9V-8hp"/>
                         <outlet property="imageViewPhoto" destination="LO9-KW-R3n" id="tSO-1r-v68"/>
                         <outlet property="imageViewPhotoBg" destination="LcC-Pt-53y" id="Zr2-At-1xr"/>
                         <outlet property="labelAuthor" destination="Kbb-4U-H5H" id="55m-Ta-D03"/>
                         <outlet property="labelQuote" destination="OKH-51-zyI" id="gxt-o6-iKa"/>
+                        <outlet property="lcTopConstraint" destination="HuT-Rh-mQb" id="wQ3-9V-8hp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
