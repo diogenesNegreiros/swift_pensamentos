@@ -7,6 +7,7 @@
 import UIKit
 
 class QuotesViewController: UIViewController {
+    @IBOutlet weak var ctTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var imageViewPhoto: UIImageView!
     @IBOutlet weak var imageViewPhotoBg: UIImageView!
     @IBOutlet weak var labelQuote: UILabel!

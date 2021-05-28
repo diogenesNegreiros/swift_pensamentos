@@ -11,6 +11,7 @@
 		999085B62660852E002B3CCB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085B52660852E002B3CCB /* SettingsViewController.swift */; };
 		999085BA26609323002B3CCB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085B926609323002B3CCB /* Quote.swift */; };
 		999085BC26609371002B3CCB /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085BB26609371002B3CCB /* QuotesManager.swift */; };
+		999085BF26609449002B3CCB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085BE26609449002B3CCB /* Configuration.swift */; };
 		9991266126604C4000B36C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9991266026604C4000B36C75 /* AppDelegate.swift */; };
 		9991266326604C4000B36C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9991266226604C4000B36C75 /* SceneDelegate.swift */; };
 		9991266826604C4000B36C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9991266626604C4000B36C75 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		999085B52660852E002B3CCB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		999085B926609323002B3CCB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		999085BB26609371002B3CCB /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		999085BE26609449002B3CCB /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		9991265D26604C4000B36C75 /* Swift_Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9991266026604C4000B36C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9991266226604C4000B36C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				999085B926609323002B3CCB /* Quote.swift */,
 				999085BB26609371002B3CCB /* QuotesManager.swift */,
+				999085BE26609449002B3CCB /* Configuration.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				999085B42660850B002B3CCB /* QuotesViewController.swift in Sources */,
 				9991266126604C4000B36C75 /* AppDelegate.swift in Sources */,
+				999085BF26609449002B3CCB /* Configuration.swift in Sources */,
 				999085B62660852E002B3CCB /* SettingsViewController.swift in Sources */,
 				999085BA26609323002B3CCB /* Quote.swift in Sources */,
 				999085BC26609371002B3CCB /* QuotesManager.swift in Sources */,
