@@ -25,6 +25,10 @@ class QuotesViewController: UIViewController {
         prepareQuote()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        showRandomQuote()
+    }
+    
     func prepareQuote() {
         timer?.invalidate()
         Timer.scheduledTimer(withTimeInterval: 8.0, repeats: true) { (timer) in
@@ -43,12 +47,16 @@ class QuotesViewController: UIViewController {
         labelAuthor.alpha = 0
         imageViewPhoto.alpha = 0
         imageViewPhotoBg.alpha = 0
+        lcTopConstraint.constant = 40
+        view.layoutIfNeeded()
         
         UIView.animate(withDuration: 2.5) {
             self.labelQuote.alpha = 1
             self.labelAuthor.alpha = 1
             self.imageViewPhoto.alpha = 1
             self.imageViewPhotoBg.alpha = 0.25
+            self.lcTopConstraint.constant = 10
+            self.view.layoutIfNeeded()
         }
     }
     

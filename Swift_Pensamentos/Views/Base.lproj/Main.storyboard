@@ -31,55 +31,61 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LO9-KW-R3n">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="LO9-KW-R3n" secondAttribute="height" multiplier="750:666" id="nP4-8r-CPm"/>
+                                    <constraint firstAttribute="width" secondItem="LO9-KW-R3n" secondAttribute="height" multiplier="80:71" id="Viv-uw-8R1"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OKH-51-zyI">
-                                <rect key="frame" x="30" y="294" width="260" height="48"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Pensamento">
-                                        <attributes>
-                                            <font key="NSFont" size="40" name="SavoyeLetPlain"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-4U-H5H">
-                                <rect key="frame" x="130.5" y="362" width="59.5" height="43"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Autor">
-                                        <attributes>
-                                            <color key="NSColor" red="0.75294117647058822" green="0.37647058823529411" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="SavoyeLetPlain"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ka7-4R-Mfw">
+                                <rect key="frame" x="24" y="294" width="272" height="96"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="OKH-51-zyI">
+                                        <rect key="frame" x="74" y="0.0" width="124" height="48"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Pensamento">
+                                                <attributes>
+                                                    <font key="NSFont" size="40" name="SavoyeLetPlain"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-4U-H5H">
+                                        <rect key="frame" x="106.5" y="53" width="59.5" height="43"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Autor">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.75294117647058822" green="0.37647058823529411" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="36" name="SavoyeLetPlain"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ral-KI-fJZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1hr-4M-UbS"/>
-                            <constraint firstItem="Kbb-4U-H5H" firstAttribute="top" secondItem="OKH-51-zyI" secondAttribute="bottom" constant="20" id="6Vc-n2-ktV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OKH-51-zyI" secondAttribute="trailing" constant="30" id="Beu-hc-n3f"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Czi-IZ-eo3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kbb-4U-H5H" secondAttribute="bottom" constant="20" id="Dhg-Yh-4sC"/>
-                            <constraint firstItem="Ral-KI-fJZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DsE-xZ-fCz"/>
-                            <constraint firstItem="OKH-51-zyI" firstAttribute="top" secondItem="LO9-KW-R3n" secondAttribute="bottom" constant="10" id="HuT-Rh-mQb"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vhn-jM-vPn"/>
-                            <constraint firstItem="LcC-Pt-53y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aca-mq-4Y0"/>
-                            <constraint firstItem="OKH-51-zyI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="cYt-09-b7C"/>
-                            <constraint firstAttribute="trailing" secondItem="Ral-KI-fJZ" secondAttribute="trailing" id="eqm-Ty-oZY"/>
-                            <constraint firstItem="LcC-Pt-53y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hhe-4G-kt1"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nqb-dg-SXR"/>
-                            <constraint firstAttribute="trailing" secondItem="LcC-Pt-53y" secondAttribute="trailing" id="vi6-g8-NJR"/>
-                            <constraint firstItem="Ral-KI-fJZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vql-YG-jD0"/>
-                            <constraint firstAttribute="bottom" secondItem="LcC-Pt-53y" secondAttribute="bottom" id="z7F-6B-3pF"/>
-                            <constraint firstItem="Kbb-4U-H5H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zJe-UW-xpm"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="5IY-cc-qSZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ka7-4R-Mfw" secondAttribute="bottom" constant="10" id="C7Z-47-965"/>
+                            <constraint firstItem="ka7-4R-Mfw" firstAttribute="top" secondItem="LO9-KW-R3n" secondAttribute="bottom" priority="999" constant="10" id="Dbx-tc-Abq"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="Ral-KI-fJZ" secondAttribute="leading" id="FPd-SH-gc6"/>
+                            <constraint firstAttribute="bottom" secondItem="LcC-Pt-53y" secondAttribute="bottom" id="G04-ft-d7N"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="LcC-Pt-53y" secondAttribute="top" id="GdE-7y-yzS"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="Ral-KI-fJZ" secondAttribute="top" id="Gi3-Jc-Kcf"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="centerX" secondItem="ka7-4R-Mfw" secondAttribute="centerX" id="IAb-PI-asC"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nvt-Je-vo7"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qa4-1I-dDb"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Urt-am-mpW"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="Ral-KI-fJZ" secondAttribute="trailing" id="alu-pf-1py"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ka7-4R-Mfw" secondAttribute="trailing" constant="24" id="fNs-Vj-CzZ"/>
+                            <constraint firstItem="ka7-4R-Mfw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="gIS-nw-ww0"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="LcC-Pt-53y" secondAttribute="leading" id="gWk-bm-wKQ"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="k14-G4-61d"/>
+                            <constraint firstItem="Ral-KI-fJZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ktW-oV-401"/>
+                            <constraint firstItem="LcC-Pt-53y" firstAttribute="trailing" secondItem="LO9-KW-R3n" secondAttribute="trailing" id="ru7-Yk-YQJ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quote.bubble" catalog="system" id="qBb-UX-TjO"/>
@@ -88,7 +94,7 @@
                         <outlet property="imageViewPhotoBg" destination="LcC-Pt-53y" id="Zr2-At-1xr"/>
                         <outlet property="labelAuthor" destination="Kbb-4U-H5H" id="55m-Ta-D03"/>
                         <outlet property="labelQuote" destination="OKH-51-zyI" id="gxt-o6-iKa"/>
-                        <outlet property="lcTopConstraint" destination="HuT-Rh-mQb" id="wQ3-9V-8hp"/>
+                        <outlet property="lcTopConstraint" destination="Dbx-tc-Abq" id="Wwv-RV-x9p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -8,10 +8,15 @@
 import Foundation
 
 class QuotesManager {
-    
-    let quotes: [Quote]
+   
+    var quotes: [Quote] = []
     
     init() {
+        getQuotesInBundle()
+    
+    }
+    
+    func getQuotesInBundle() {
         let fileURL = Bundle.main.url(forResource: "quotes", withExtension: "json")!
         let jsonData = try! Data(contentsOf: fileURL)
         let jsonDecoder = JSONDecoder()
@@ -19,7 +24,16 @@ class QuotesManager {
     }
     
     func getRandomQuote() -> Quote {
+        
+        if quotes.isEmpty {
+            getQuotesInBundle()
+            print("TODOS OS PENSAMENTOS FORAM EXIBIDOS!")
+        }
+        
         let index = Int (arc4random_uniform(UInt32(quotes.count)))
-        return quotes[index]
+        let quote = quotes[index]
+        quotes.remove(at: index)
+        return quote
     }
+    
 }
