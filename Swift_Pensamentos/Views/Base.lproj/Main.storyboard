@@ -19,7 +19,6 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LcC-Pt-53y">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" red="0.58039215690000001" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-KI-fJZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
@@ -74,9 +73,9 @@
                             <constraint firstItem="ka7-4R-Mfw" firstAttribute="top" secondItem="LO9-KW-R3n" secondAttribute="bottom" priority="999" constant="10" id="Dbx-tc-Abq"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="Ral-KI-fJZ" secondAttribute="leading" id="FPd-SH-gc6"/>
                             <constraint firstAttribute="bottom" secondItem="LcC-Pt-53y" secondAttribute="bottom" id="G04-ft-d7N"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GdE-7y-yzS"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="Ral-KI-fJZ" secondAttribute="top" id="Gi3-Jc-Kcf"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GdE-7y-yzS"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="centerX" secondItem="ka7-4R-Mfw" secondAttribute="centerX" id="IAb-PI-asC"/>
+                            <constraint firstItem="Ral-KI-fJZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KbR-FN-fae"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nvt-Je-vo7"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qa4-1I-dDb"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Urt-am-mpW"/>
