@@ -19,6 +19,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LcC-Pt-53y">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.58039215690000001" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-KI-fJZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
@@ -73,13 +74,14 @@
                             <constraint firstItem="ka7-4R-Mfw" firstAttribute="top" secondItem="LO9-KW-R3n" secondAttribute="bottom" priority="999" constant="10" id="Dbx-tc-Abq"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="Ral-KI-fJZ" secondAttribute="leading" id="FPd-SH-gc6"/>
                             <constraint firstAttribute="bottom" secondItem="LcC-Pt-53y" secondAttribute="bottom" id="G04-ft-d7N"/>
-                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="LcC-Pt-53y" secondAttribute="top" id="GdE-7y-yzS"/>
+                            <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GdE-7y-yzS"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="top" secondItem="Ral-KI-fJZ" secondAttribute="top" id="Gi3-Jc-Kcf"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="centerX" secondItem="ka7-4R-Mfw" secondAttribute="centerX" id="IAb-PI-asC"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nvt-Je-vo7"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qa4-1I-dDb"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Urt-am-mpW"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="trailing" secondItem="Ral-KI-fJZ" secondAttribute="trailing" id="alu-pf-1py"/>
+                            <constraint firstItem="LcC-Pt-53y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cR0-lh-PG1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ka7-4R-Mfw" secondAttribute="trailing" constant="24" id="fNs-Vj-CzZ"/>
                             <constraint firstItem="ka7-4R-Mfw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="gIS-nw-ww0"/>
                             <constraint firstItem="LO9-KW-R3n" firstAttribute="leading" secondItem="LcC-Pt-53y" secondAttribute="leading" id="gWk-bm-wKQ"/>
@@ -115,7 +117,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5d-co-kJX">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a5d-co-kJX">
                                 <rect key="frame" x="135.5" y="57" width="51" height="31"/>
                                 <color key="onTintColor" red="0.75294117650000003" green="0.37647058820000001" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
