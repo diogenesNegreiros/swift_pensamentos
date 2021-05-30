@@ -48,7 +48,7 @@ class Configuration {
     init() {
         
         if defaults.double(forKey: UserDefaultsKeys.timeInterval.rawValue) == 0 {
-            defaults.set(8.0, forKey: UserDefaultsKeys.timeInterval.rawValue)
+            defaults.set(5.0, forKey: UserDefaultsKeys.timeInterval.rawValue)
         }
         
     }
