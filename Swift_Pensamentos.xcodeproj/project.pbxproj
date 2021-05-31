@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992E94C926645A820001E364 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 992E94C826645A810001E364 /* Settings.bundle */; };
 		999085B42660850B002B3CCB /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085B32660850B002B3CCB /* QuotesViewController.swift */; };
 		999085B62660852E002B3CCB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085B52660852E002B3CCB /* SettingsViewController.swift */; };
 		999085BA26609323002B3CCB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999085B926609323002B3CCB /* Quote.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		992E94C826645A810001E364 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		999085B32660850B002B3CCB /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		999085B52660852E002B3CCB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		999085B926609323002B3CCB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -142,12 +144,13 @@
 				999126902660505F00B36C75 /* README.md */,
 				9991266026604C4000B36C75 /* AppDelegate.swift */,
 				9991266226604C4000B36C75 /* SceneDelegate.swift */,
+				9991266E26604C4200B36C75 /* Info.plist */,
+				9991266926604C4200B36C75 /* Assets.xcassets */,
+				992E94C826645A810001E364 /* Settings.bundle */,
 				99D951FE2661764D00EF8F21 /* Files */,
 				999085BD2660937E002B3CCB /* Models */,
 				999085B826608F32002B3CCB /* Views */,
 				999085B726608F03002B3CCB /* Controllers */,
-				9991266926604C4200B36C75 /* Assets.xcassets */,
-				9991266E26604C4200B36C75 /* Info.plist */,
 			);
 			path = Swift_Pensamentos;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				99D951FD2661762000EF8F21 /* quotes.json in Resources */,
 				9991266A26604C4200B36C75 /* Assets.xcassets in Resources */,
 				999126912660505F00B36C75 /* README.md in Resources */,
+				992E94C926645A820001E364 /* Settings.bundle in Resources */,
 				9991266826604C4000B36C75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

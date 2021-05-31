@@ -9,7 +9,7 @@ import Foundation
 
 enum UserDefaultsKeys: String {
     case timeInterval = "timeInterval"
-    case colorScheme = "colorCsheme"
+    case colorScheme = "colorScheme"
     case  autoRefresh = "autoRefresh"
 }
 
